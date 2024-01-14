@@ -1,0 +1,3 @@
+evaluate==0.4.1
+peft==0.7.1
+code-bert-score==0.4.1
