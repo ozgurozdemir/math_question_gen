@@ -289,7 +289,6 @@ class VAE_Model(PreTrainedModel):
         if use_lora:
             self.prepare_lora_model()
         
-        data_collator = 
         args = TrainingArguments(
             output_dir="./cvae",
             per_device_train_batch_size=32,
